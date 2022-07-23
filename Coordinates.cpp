@@ -4,7 +4,7 @@ Coordinates::Coordinates()
 {
 }
 
-Coordinates::Coordinates(uint8_t xpin, uint8_t ypin, uint8_t numberOfSamples, uint8_t deadzonePercent, uint8_t reverseDeadzonePercent int16_t offsetX, int16_t offsetY )
+Coordinates::Coordinates(uint8_t xpin, uint8_t ypin, uint8_t numberOfSamples, uint8_t deadzonePercent, uint8_t reverseDeadzonePercent, int16_t offsetX, int16_t offsetY )
 {
   _raw = CartesianSystem(xpin, ypin, numberOfSamples, offsetX, offsetY);
   _deadzone = deadzonePercent;
