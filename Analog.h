@@ -2,6 +2,8 @@
 #include <stdint.h>
 #include <math.h>
 
+#pragma message "AnalogLever library v0.0.1"
+
 /****************************************************
  * General analog header to include in your project *
 *****************************************************/
