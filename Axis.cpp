@@ -1,4 +1,4 @@
-#include "Analog.h"
+#include "AnalogLever-ProMicro/Analog.h"
 
 Axis::Axis()
 {
