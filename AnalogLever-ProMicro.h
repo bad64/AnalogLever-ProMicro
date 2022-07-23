@@ -1,3 +1,6 @@
+#ifndef ANALOGLEVER_H
+#define ANALOGLEVER_H
+
 #include <Arduino.h>
 #include <stdint.h>
 #include <math.h>
@@ -95,3 +98,5 @@ class Coordinates
     int16_t y();
     uint8_t deadzone();
 };
+
+#endif

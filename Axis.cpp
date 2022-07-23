@@ -1,4 +1,4 @@
-#include "Analog.h"
+#include "AnalogLever-ProMicro.h"
 
 Axis::Axis()
 {
@@ -14,14 +14,14 @@ Axis::Axis(uint8_t npin, uint8_t _numberOfSamples, int16_t offset)
 
   #if defined(LEVER_JLM)
     // Empirical values; will need to be adjusted on a case by case basis
-    minimum = center - 275;
-    maximum = center + 275;
+    _minimum = _center - 275;
+    _maximum = _center + 275;
   #endif
   
   #if defined(LEVER_U360)
     // Ditto
-    minimum = center - 360;
-    maximum = center + 360;
+    _minimum = _center - 360;
+    _maximum = _center + 360;
   #endif
   
   _range = _maximum - _minimum;

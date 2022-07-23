@@ -1,4 +1,4 @@
-#include "Analog.h"
+#include "AnalogLever-ProMicro.h"
 #define PI 3.141592
 
 PolarSystem::PolarSystem()
