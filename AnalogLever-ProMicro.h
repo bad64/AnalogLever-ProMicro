@@ -88,7 +88,7 @@ class Coordinates
     int16_t _x;
     int16_t _y;
     uint8_t _deadzone;
-    uint8_t _reverseDeadZone;
+    uint8_t _reverseDeadzone;
   public:
     Coordinates();
     Coordinates(uint8_t xpin, uint8_t ypin, uint8_t numberOfSamples, uint8_t deadzonePercent, uint8_t reverseDeadzonePercent, int16_t offsetX, int16_t offsetY);
